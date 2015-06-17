@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+
+	<name>joomla_shell</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>June 2015</creationDate>
+	<author>Cyberis</author>
+	<authorEmail>info@cyberis.co.uk</authorEmail>
+	<authorUrl>http://www.cyberis.co.uk</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.0.1</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Basic Joomla command execution</description>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>Joomla Shell</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>joomla_shell.php</filename>
+		</files>
+	</administration>
+
+</extension>
+
